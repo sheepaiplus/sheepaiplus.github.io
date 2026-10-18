@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "version": "2026-10-19",
+  "created_at": "2026-10-18T23:03:48.911791+00:00",
+  "source_name": "pricing.json",
+  "source_url": "https://sheepaiplus.top/api/pricing",
+  "raw_available": true,
+  "raw_sha256": "e31bd72ff8aadd2ae1c3954740c2a1d79cd290b6066d029959737d4351679605",
+  "previous_version": "2026-10-18",
+  "stats": {
+    "models": 333,
+    "groups": 65,
+    "vendors": 24,
+    "endpoints": 182,
+    "billing_types": {
+      "step": 44,
+      "cache": 16,
+      "basic": 265,
+      "image": 6,
+      "audio": 2
+    }
+  },
+  "anchor_checks": [
+    {
+      "name": "claude-opus-5",
+      "base_input": 5.0,
+      "aws_bedrock_1_input": 4.323564
+    },
+    {
+      "name": "gpt-5.6-sol",
+      "stage_1_input": 5.0,
+      "stage_2_input": 10.0
+    }
+  ]
+}
