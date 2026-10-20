@@ -51,6 +51,29 @@ window.CYBERSHEEP_DATA = {
   ],
   "announcements": [
     {
+      "date": "2026-10-21",
+      "title": "模型广场更新：新增 jev-1.14.0",
+      "excerpt": "本期收录 331 个模型，新增 1 个、下架 1 个，25 个模型的配置字段发生变化。",
+      "slug": "models-update-2026-10-21",
+      "type": "update",
+      "category": "模型更新",
+      "keywords": [
+        "模型广场",
+        "模型更新",
+        "上架",
+        "下架",
+        "价格",
+        "分组",
+        "jev-1.14.0"
+      ],
+      "featured": true,
+      "related_guides": [],
+      "related_models": [
+        "jev-1.14.0"
+      ],
+      "generated_from": "data/model-snapshots/2026-10-21/changes.json"
+    },
+    {
       "date": "2026-10-20",
       "title": "模型广场更新：下架 2 个旧模型",
       "excerpt": "本期收录 331 个模型，新增 0 个、下架 2 个，10 个模型的配置字段发生变化。",
