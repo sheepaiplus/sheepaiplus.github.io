@@ -51,6 +51,29 @@ window.CYBERSHEEP_DATA = {
   ],
   "announcements": [
     {
+      "date": "2026-10-23",
+      "title": "模型广场更新：新增 MiniMax-M3.1-Flash",
+      "excerpt": "本期收录 333 个模型，新增 1 个、下架 0 个，8 个模型的配置字段发生变化。",
+      "slug": "models-update-2026-10-23",
+      "type": "update",
+      "category": "模型更新",
+      "keywords": [
+        "模型广场",
+        "模型更新",
+        "上架",
+        "下架",
+        "价格",
+        "分组",
+        "MiniMax-M3.1-Flash"
+      ],
+      "featured": true,
+      "related_guides": [],
+      "related_models": [
+        "MiniMax-M3.1-Flash"
+      ],
+      "generated_from": "data/model-snapshots/2026-10-23/changes.json"
+    },
+    {
       "date": "2026-10-22",
       "title": "模型广场更新：新增 gemini-embedding-2-preview、viduq4-preview",
       "excerpt": "本期收录 332 个模型，新增 2 个、下架 1 个，2 个模型的配置字段发生变化。",
