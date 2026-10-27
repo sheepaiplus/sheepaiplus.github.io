@@ -1,0 +1,101 @@
+{
+  "baseline": false,
+  "models_added": [
+    "gpt-6.1-terra",
+    "qwen3.8-omni-flash",
+    "qwen3.8-omni-flash-realtime"
+  ],
+  "models_removed": [
+    "gemini-2.5-pro"
+  ],
+  "models_changed": [
+    {
+      "model": "claude-haiku-5-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-3-pro-preview",
+      "fields": {
+        "billing_type": {
+          "before": "basic",
+          "after": "step"
+        },
+        "step_ratios": {
+          "before": null,
+          "after": [
+            {
+              "step_size": 200000,
+              "completion_step_size": -1,
+              "prompt_step_ratio": 1,
+              "completion_step_ratio": 1,
+              "cache_step_ratio": 1,
+              "prompt_thinking_step_ratio": 0,
+              "completion_thinking_step_ratio": 0
+            },
+            {
+              "step_size": 1000000,
+              "completion_step_size": -1,
+              "prompt_step_ratio": 2,
+              "completion_step_ratio": 1.5,
+              "cache_step_ratio": 2,
+              "prompt_thinking_step_ratio": 0,
+              "completion_thinking_step_ratio": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-embedding-001",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4"
+          ],
+          "after": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "kimi-k3",
+      "fields": {
+        "cache_creation_5m_ratio": {
+          "before": null,
+          "after": 1
+        },
+        "cache_creation_1h_ratio": {
+          "before": null,
+          "after": 2
+        },
+        "billing_type": {
+          "before": "basic",
+          "after": "cache"
+        }
+      }
+    }
+  ],
+  "group_ratio_changed": []
+}
