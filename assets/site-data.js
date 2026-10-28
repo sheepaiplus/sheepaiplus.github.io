@@ -51,6 +51,29 @@ window.CYBERSHEEP_DATA = {
   ],
   "announcements": [
     {
+      "date": "2026-10-29",
+      "title": "模型广场更新：新增 kimi-k3.1-pro",
+      "excerpt": "本期收录 331 个模型，新增 1 个、下架 5 个，59 个模型的配置字段发生变化。",
+      "slug": "models-update-2026-10-29",
+      "type": "update",
+      "category": "模型更新",
+      "keywords": [
+        "模型广场",
+        "模型更新",
+        "上架",
+        "下架",
+        "价格",
+        "分组",
+        "kimi-k3.1-pro"
+      ],
+      "featured": true,
+      "related_guides": [],
+      "related_models": [
+        "kimi-k3.1-pro"
+      ],
+      "generated_from": "data/model-snapshots/2026-10-29/changes.json"
+    },
+    {
       "date": "2026-10-28",
       "title": "模型广场更新：新增 gpt-6.1-terra 等 3 个模型",
       "excerpt": "本期收录 335 个模型，新增 3 个、下架 1 个，4 个模型的配置字段发生变化。",
