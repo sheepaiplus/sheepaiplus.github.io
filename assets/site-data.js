@@ -51,6 +51,31 @@ window.CYBERSHEEP_DATA = {
   ],
   "announcements": [
     {
+      "date": "2026-11-01",
+      "title": "模型广场更新：新增 claude-sonnet-4-20250514、kling-video-v4",
+      "excerpt": "本期收录 335 个模型，新增 2 个、下架 0 个，21 个模型的配置字段发生变化。",
+      "slug": "models-update-2026-11-01",
+      "type": "update",
+      "category": "模型更新",
+      "keywords": [
+        "模型广场",
+        "模型更新",
+        "上架",
+        "下架",
+        "价格",
+        "分组",
+        "claude-sonnet-4-20250514",
+        "kling-video-v4"
+      ],
+      "featured": true,
+      "related_guides": [],
+      "related_models": [
+        "claude-sonnet-4-20250514",
+        "kling-video-v4"
+      ],
+      "generated_from": "data/model-snapshots/2026-11-01/changes.json"
+    },
+    {
       "date": "2026-10-30",
       "title": "模型广场更新：新增 gpt-3.5-turbo-0125 等 3 个模型",
       "excerpt": "本期收录 333 个模型，新增 3 个、下架 1 个，47 个模型的配置字段发生变化。",
