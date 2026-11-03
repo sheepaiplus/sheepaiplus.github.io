@@ -1,0 +1,268 @@
+{
+  "baseline": false,
+  "models_added": [
+    "eleven_flash_v2",
+    "eleven_flash_v2_5",
+    "eleven_multilingual_v2",
+    "eleven_v3",
+    "eleven_v3_conversational",
+    "eleven_v4",
+    "eleven_v4_turbo",
+    "muse-image",
+    "muse-video"
+  ],
+  "models_removed": [
+    "claude-sonnet-4-20250514",
+    "deepseek-v4-flash",
+    "gpt-5-codex",
+    "qwen-image-edit-2509"
+  ],
+  "models_changed": [
+    {
+      "model": "claude-fable-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-fable-5-1",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-opus-4-1-20250805",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Claude-3",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-3",
+            "Claude-Code-2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-opus-4-20250514",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Claude-2",
+            "Anthropic-Claude-1",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "Anthropic-Claude-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-preview-tts",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4"
+          ],
+          "after": [
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-2.5-pro-preview-tts",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4"
+          ],
+          "after": [
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-embedding-001",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3"
+          ],
+          "after": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-4o-audio-preview-2024-12-17",
+      "fields": {
+        "model_ratio": {
+          "before": 1.24,
+          "after": 1.25
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "fields": {
+        "cache_creation_5m_ratio": {
+          "before": 1.25,
+          "after": null
+        },
+        "cache_creation_1h_ratio": {
+          "before": 2,
+          "after": null
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "fields": {
+        "cache_creation_5m_ratio": {
+          "before": 1.25,
+          "after": null
+        },
+        "cache_creation_1h_ratio": {
+          "before": 2,
+          "after": null
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "fields": {
+        "cache_creation_5m_ratio": {
+          "before": 1.25,
+          "after": null
+        },
+        "cache_creation_1h_ratio": {
+          "before": 2,
+          "after": null
+        }
+      }
+    },
+    {
+      "model": "gpt-6-astra",
+      "fields": {
+        "cache_creation_5m_ratio": {
+          "before": 1.25,
+          "after": null
+        },
+        "cache_creation_1h_ratio": {
+          "before": 2,
+          "after": null
+        }
+      }
+    },
+    {
+      "model": "gpt-6-luna",
+      "fields": {
+        "cache_creation_5m_ratio": {
+          "before": 1.25,
+          "after": null
+        },
+        "cache_creation_1h_ratio": {
+          "before": 2,
+          "after": null
+        }
+      }
+    },
+    {
+      "model": "gpt-6-sol",
+      "fields": {
+        "cache_creation_5m_ratio": {
+          "before": 1.25,
+          "after": null
+        },
+        "cache_creation_1h_ratio": {
+          "before": 2,
+          "after": null
+        }
+      }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "fields": {
+        "cache_creation_5m_ratio": {
+          "before": 1.25,
+          "after": null
+        },
+        "cache_creation_1h_ratio": {
+          "before": 2,
+          "after": null
+        }
+      }
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "fields": {
+        "cache_creation_5m_ratio": {
+          "before": 1.25,
+          "after": null
+        },
+        "cache_creation_1h_ratio": {
+          "before": 2,
+          "after": null
+        }
+      }
+    }
+  ],
+  "group_ratio_changed": []
+}
