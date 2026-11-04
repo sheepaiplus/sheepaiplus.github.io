@@ -51,6 +51,26 @@ window.CYBERSHEEP_DATA = {
   ],
   "announcements": [
     {
+      "date": "2026-11-05",
+      "title": "模型广场更新：下架 2 个旧模型",
+      "excerpt": "本期收录 339 个模型，新增 0 个、下架 2 个，23 个模型的配置字段发生变化。",
+      "slug": "models-update-2026-11-05",
+      "type": "update",
+      "category": "模型更新",
+      "keywords": [
+        "模型广场",
+        "模型更新",
+        "上架",
+        "下架",
+        "价格",
+        "分组"
+      ],
+      "featured": true,
+      "related_guides": [],
+      "related_models": [],
+      "generated_from": "data/model-snapshots/2026-11-05/changes.json"
+    },
+    {
       "date": "2026-11-04",
       "title": "模型广场更新：新增 eleven_flash_v2 等 9 个模型",
       "excerpt": "本期收录 341 个模型，新增 9 个、下架 4 个，16 个模型的配置字段发生变化。",
