@@ -51,6 +51,37 @@ window.CYBERSHEEP_DATA = {
   ],
   "announcements": [
     {
+      "date": "2026-11-06",
+      "title": "模型广场更新：新增 gpt-image-2.6-flare 等 5 个模型",
+      "excerpt": "本期收录 344 个模型，新增 5 个、下架 0 个，1 个模型的配置字段发生变化。",
+      "slug": "models-update-2026-11-06",
+      "type": "update",
+      "category": "模型更新",
+      "keywords": [
+        "模型广场",
+        "模型更新",
+        "上架",
+        "下架",
+        "价格",
+        "分组",
+        "gpt-image-2.6-flare",
+        "gpt-image-2.6-flare-c",
+        "gpt-image-2.6-sunburst",
+        "gpt-image-2.6-sunburst-c",
+        "hy4"
+      ],
+      "featured": true,
+      "related_guides": [],
+      "related_models": [
+        "gpt-image-2.6-flare",
+        "gpt-image-2.6-flare-c",
+        "gpt-image-2.6-sunburst",
+        "gpt-image-2.6-sunburst-c",
+        "hy4"
+      ],
+      "generated_from": "data/model-snapshots/2026-11-06/changes.json"
+    },
+    {
       "date": "2026-11-05",
       "title": "模型广场更新：下架 2 个旧模型",
       "excerpt": "本期收录 339 个模型，新增 0 个、下架 2 个，23 个模型的配置字段发生变化。",

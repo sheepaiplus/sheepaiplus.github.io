@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "latest": "2026-11-05",
+  "latest": "2026-11-06",
   "versions": [
     {
       "version": "2026-08-24",
@@ -293,6 +293,13 @@
       "version": "2026-11-05",
       "previous_version": "2026-11-04",
       "models": 339,
+      "groups": 65,
+      "raw_available": true
+    },
+    {
+      "version": "2026-11-06",
+      "previous_version": "2026-11-05",
+      "models": 344,
       "groups": 65,
       "raw_available": true
     }

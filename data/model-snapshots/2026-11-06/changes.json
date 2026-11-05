@@ -1,0 +1,30 @@
+{
+  "baseline": false,
+  "models_added": [
+    "gpt-image-2.6-flare",
+    "gpt-image-2.6-flare-c",
+    "gpt-image-2.6-sunburst",
+    "gpt-image-2.6-sunburst-c",
+    "hy4"
+  ],
+  "models_removed": [],
+  "models_changed": [
+    {
+      "model": "gemini-embedding-001",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3"
+          ],
+          "after": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4"
+          ]
+        }
+      }
+    }
+  ],
+  "group_ratio_changed": []
+}
