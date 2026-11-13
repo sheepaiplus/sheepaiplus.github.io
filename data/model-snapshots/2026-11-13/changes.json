@@ -1,0 +1,315 @@
+{
+  "baseline": false,
+  "models_added": [
+    "kling-video-v4-flash"
+  ],
+  "models_removed": [
+    "BAAI/bge-reranker-v2-m3",
+    "Pro/BAAI/bge-reranker-v2-m3",
+    "Qwen/Qwen3-Reranker-0.6B",
+    "claude-opus-4-20250514",
+    "deepseek-v4-pro-0813",
+    "jev-1.13.0",
+    "jev-1.14.0",
+    "netease-youdao/bce-reranker-base_v1"
+  ],
+  "models_changed": [
+    {
+      "model": "claude-fable-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-fable-5-1",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-opus-4-1-20250805",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Claude-3",
+            "Claude-Code-2"
+          ],
+          "after": [
+            "AWS-Claude-3"
+          ]
+        },
+        "supported_endpoint_types": {
+          "before": [
+            "anthropic",
+            "openai"
+          ],
+          "after": []
+        }
+      }
+    },
+    {
+      "model": "claude-opus-4-7",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-opus-4-8",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-opus-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-sonnet-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "deepseek-v4-flash-0731",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Self-Deployed-1",
+            "deepseek-1"
+          ],
+          "after": [
+            "Self-Deployed-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Self-Deployed-1",
+            "Self-Deployed-2",
+            "Self-Deployed-3",
+            "deepseek-1"
+          ],
+          "after": [
+            "Alibaba-2",
+            "Alibaba-3",
+            "Self-Deployed-1",
+            "Self-Deployed-2",
+            "Self-Deployed-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-embedding-001",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3"
+          ],
+          "after": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4"
+          ]
+        }
+      }
+    }
+  ],
+  "group_ratio_changed": []
+}
