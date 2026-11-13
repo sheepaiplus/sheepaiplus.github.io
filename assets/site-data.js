@@ -51,6 +51,29 @@ window.CYBERSHEEP_DATA = {
   ],
   "announcements": [
     {
+      "date": "2026-11-14",
+      "title": "模型广场更新：新增 gemini-4-hydrogen",
+      "excerpt": "本期收录 321 个模型，新增 1 个、下架 2 个，15 个模型的配置字段发生变化。",
+      "slug": "models-update-2026-11-14",
+      "type": "update",
+      "category": "模型更新",
+      "keywords": [
+        "模型广场",
+        "模型更新",
+        "上架",
+        "下架",
+        "价格",
+        "分组",
+        "gemini-4-hydrogen"
+      ],
+      "featured": true,
+      "related_guides": [],
+      "related_models": [
+        "gemini-4-hydrogen"
+      ],
+      "generated_from": "data/model-snapshots/2026-11-14/changes.json"
+    },
+    {
       "date": "2026-11-13",
       "title": "模型广场更新：新增 kling-video-v4-flash",
       "excerpt": "本期收录 322 个模型，新增 1 个、下架 8 个，13 个模型的配置字段发生变化。",
