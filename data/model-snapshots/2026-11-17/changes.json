@@ -1,0 +1,219 @@
+{
+  "baseline": false,
+  "models_added": [
+    "gemini-2.5-pro",
+    "hy4-flash",
+    "mj_upload",
+    "mj_upscale"
+  ],
+  "models_removed": [
+    "wan2.7-image-pro"
+  ],
+  "models_changed": [
+    {
+      "model": "MiniMax-H3",
+      "fields": {
+        "supported_endpoint_types": {
+          "before": [
+            "hailuo-video",
+            "image-generation"
+          ],
+          "after": [
+            "hailuo-video"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Anti-Gemini-1",
+            "Cli-Gemini-1",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ],
+          "after": [
+            "Anti-Gemini-1",
+            "Cli-Gemini-1",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-image",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-1",
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-1",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ],
+          "after": [
+            "Aistudio-Gemini-1",
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Vertex-Gemini-1",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-1",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ],
+          "after": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Anti-Gemini-1",
+            "Vertex-Gemini-1",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-4-hydrogen",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4"
+          ],
+          "after": [
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-embedding-001",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4"
+          ],
+          "after": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "hy4",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Self-Deployed-2",
+            "Self-Deployed-3"
+          ],
+          "after": [
+            "Self-Deployed-1",
+            "Self-Deployed-2",
+            "Self-Deployed-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "hy4-preview",
+      "fields": {
+        "enable_groups": {
+          "before": [],
+          "after": [
+            "Self-Deployed-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "mimo-v2.6-flash",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Self-Deployed-1",
+            "Self-Deployed-2",
+            "Self-Deployed-3",
+            "Xiaomi-1",
+            "Xiaomi-2"
+          ],
+          "after": [
+            "Self-Deployed-1",
+            "Self-Deployed-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "mimo-v2.6-pro",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Self-Deployed-1",
+            "Self-Deployed-2",
+            "Self-Deployed-3",
+            "Xiaomi-1",
+            "Xiaomi-2"
+          ],
+          "after": [
+            "Self-Deployed-1",
+            "Self-Deployed-3",
+            "Xiaomi-1",
+            "Xiaomi-2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "qwen3.6-plus-2026-04-02",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Alibaba-2",
+            "Alibaba-3"
+          ],
+          "after": [
+            "Alibaba-2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "vidu-image-q2",
+      "fields": {
+        "model_price": {
+          "before": 0.0014706,
+          "after": 0.0016
+        }
+      }
+    }
+  ],
+  "group_ratio_changed": []
+}
