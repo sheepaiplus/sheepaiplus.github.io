@@ -1,0 +1,152 @@
+{
+  "baseline": false,
+  "models_added": [
+    "doubao-seedream-5-5-261028",
+    "gpt-6.2-astra",
+    "gpt-6.2-sol"
+  ],
+  "models_removed": [
+    "muse-video"
+  ],
+  "models_changed": [
+    {
+      "model": "claude-fable-5-2",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-image",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-1",
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Vertex-Gemini-1",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ],
+          "after": [
+            "Aistudio-Gemini-1",
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-1",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-3.7-flash",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Anti-Gemini-1",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ],
+          "after": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-4-carbon",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Anti-Gemini-1",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ],
+          "after": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "grok-4-20-non-reasoning",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Cli-Grok-1",
+            "Cli-Grok-2",
+            "Xai-Grok-1"
+          ],
+          "after": [
+            "Xai-Grok-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "grok-4-20-reasoning",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Cli-Grok-1",
+            "Cli-Grok-2",
+            "Xai-Grok-1"
+          ],
+          "after": [
+            "Xai-Grok-1"
+          ]
+        }
+      }
+    }
+  ],
+  "group_ratio_changed": []
+}
