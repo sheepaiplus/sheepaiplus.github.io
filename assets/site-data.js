@@ -51,6 +51,33 @@ window.CYBERSHEEP_DATA = {
   ],
   "announcements": [
     {
+      "date": "2026-11-20",
+      "title": "模型广场更新：新增 doubao-seedance-2-5-flash-261115 等 3 个模型",
+      "excerpt": "本期收录 324 个模型，新增 3 个、下架 0 个，13 个模型的配置字段发生变化。",
+      "slug": "models-update-2026-11-20",
+      "type": "update",
+      "category": "模型更新",
+      "keywords": [
+        "模型广场",
+        "模型更新",
+        "上架",
+        "下架",
+        "价格",
+        "分组",
+        "doubao-seedance-2-5-flash-261115",
+        "muse-video",
+        "qwen4-max"
+      ],
+      "featured": true,
+      "related_guides": [],
+      "related_models": [
+        "doubao-seedance-2-5-flash-261115",
+        "muse-video",
+        "qwen4-max"
+      ],
+      "generated_from": "data/model-snapshots/2026-11-20/changes.json"
+    },
+    {
       "date": "2026-11-19",
       "title": "模型广场更新：新增 doubao-seedream-5-5-261028 等 3 个模型",
       "excerpt": "本期收录 321 个模型，新增 3 个、下架 1 个，7 个模型的配置字段发生变化。",
