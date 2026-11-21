@@ -1,0 +1,206 @@
+{
+  "baseline": false,
+  "models_added": [],
+  "models_removed": [
+    "gemini-3.8-flash"
+  ],
+  "models_changed": [
+    {
+      "model": "claude-haiku-5-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-opus-4-8",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-opus-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-opus-5-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-sonnet-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-3.1-flash-tts-preview",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ],
+          "after": [
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-3.6-flash",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Anti-Gemini-1",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ],
+          "after": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-2",
+            "Vertex-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-3.8-flash-tts",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-2",
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-3"
+          ],
+          "after": [
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-4-hydrogen",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Anti-Gemini-1"
+          ],
+          "after": [
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Anti-Gemini-1",
+            "Cli-Gemini-1"
+          ]
+        }
+      }
+    }
+  ],
+  "group_ratio_changed": []
+}
