@@ -51,6 +51,35 @@ window.CYBERSHEEP_DATA = {
   ],
   "announcements": [
     {
+      "date": "2026-11-24",
+      "title": "模型广场更新：新增 gemini-3.8-flash 等 4 个模型",
+      "excerpt": "本期收录 319 个模型，新增 4 个、下架 7 个，14 个模型的配置字段发生变化。",
+      "slug": "models-update-2026-11-24",
+      "type": "update",
+      "category": "模型更新",
+      "keywords": [
+        "模型广场",
+        "模型更新",
+        "上架",
+        "下架",
+        "价格",
+        "分组",
+        "gemini-3.8-flash",
+        "gemini-4-argon",
+        "gemini-4-neon",
+        "minimax-h3-z"
+      ],
+      "featured": true,
+      "related_guides": [],
+      "related_models": [
+        "gemini-3.8-flash",
+        "gemini-4-argon",
+        "gemini-4-neon",
+        "minimax-h3-z"
+      ],
+      "generated_from": "data/model-snapshots/2026-11-24/changes.json"
+    },
+    {
       "date": "2026-11-23",
       "title": "模型广场更新：新增 gpt-4-1106-preview、gpt-oss-120b",
       "excerpt": "本期收录 322 个模型，新增 2 个、下架 0 个，8 个模型的配置字段发生变化。",
