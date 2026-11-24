@@ -1,54 +1,20 @@
 /* 由 scripts/build-site-data.py 生成，请勿手动编辑。 */
-window.CYBERSHEEP_DATA = {
+window.SHEEPAIPLUS_DATA = {
   "site": {
     "schema_version": 1,
     "brand": {
-      "name": "CyberSheep",
-      "name_zh": "赛博小羊",
-      "email": "cybersheep33@gmail.com",
-      "copyright": "© 2026 CyberSheep 赛博小羊"
+      "name": "Sheep AI Plus",
+      "name_zh": "服务平台",
+      "email": "cybersheep@qq.com",
+      "copyright": "© 2026 Sheep AI Plus"
     },
     "links": {
       "api_register": "https://sheepaiplus.top/register?aff=Q6eo",
       "api_console": "https://sheepaiplus.top",
       "api_pricing": "https://sheepaiplus.top/pricing",
-      "api_docs": "https://docs.sheepaiplus.top/",
-      "github": "https://github.com/SheepAI-Lab",
-      "blog_index": "blog/index.html"
+      "api_docs": "https://docs.sheepaiplus.top/"
     }
   },
-  "projects": [
-    {
-      "id": "sheepai-creator",
-      "name": "sheepai-creator",
-      "source": "official",
-      "creator": "SheepAI-Lab",
-      "description": "跨平台 AI 图像与视频创作桌面应用。",
-      "language": "TypeScript",
-      "repo_url": "https://github.com/SheepAI-Lab/sheepai-creator",
-      "tags": [
-        "AI 创作",
-        "桌面应用"
-      ],
-      "featured": true,
-      "order": 10
-    },
-    {
-      "id": "sheepai-hud",
-      "name": "sheepai-hud",
-      "source": "official",
-      "creator": "SheepAI-Lab",
-      "description": "SheepAI 用户信息、余额与 API Token 用量桌面组件。",
-      "language": "Swift",
-      "repo_url": "https://github.com/SheepAI-Lab/sheepai-hud",
-      "tags": [
-        "用量监控",
-        "桌面组件"
-      ],
-      "featured": true,
-      "order": 20
-    }
-  ],
   "announcements": [
     {
       "date": "2026-11-24",
@@ -1997,39 +1963,5 @@ window.CYBERSHEEP_DATA = {
         "url": "tools/ccswitch.html"
       }
     ]
-  },
-  "blogs": {
-    "schema_version": 1,
-    "platforms": [
-      {
-        "id": "flowus",
-        "name": "FlowUs",
-        "description": "CyberSheep 当前博客与知识内容入口。",
-        "url": "https://flowus.cn/sheepblog/share/f94ab8ef-ca2e-4d63-9c6e-b4d4943b327f?code=8KZJQM",
-        "featured": true,
-        "order": 10
-      }
-    ],
-    "creators": [
-      {
-        "id": "cybersheep",
-        "name": "CyberSheep 赛博小羊",
-        "description": "分享 AI 工具、模型使用经验与配置实践。",
-        "topics": [
-          "AI Coding",
-          "模型使用",
-          "工具配置"
-        ],
-        "links": [
-          {
-            "platform": "flowus",
-            "url": "https://flowus.cn/sheepblog/share/f94ab8ef-ca2e-4d63-9c6e-b4d4943b327f?code=8KZJQM"
-          }
-        ],
-        "featured": true,
-        "order": 10
-      }
-    ],
-    "articles": []
   }
 };

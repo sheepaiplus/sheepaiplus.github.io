@@ -314,9 +314,9 @@ __ROOT__ .mu-empty span { margin-top: 4px; color: var(--muted); font-size: .8rem
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{esc(excerpt)}">
-  <meta name="author" content="CyberSheep">
+  <meta name="author" content="Sheep AI Plus">
   <meta name="theme-color" content="#f7fbfa">
-  <title>{esc(title)} — CyberSheep 赛博小羊公告</title>
+  <title>{esc(title)} — Sheep AI Plus 公告</title>
   <link rel="stylesheet" href="../css/style.css">
   <style>\n{css}\n  </style>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🐑</text></svg>">

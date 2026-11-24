@@ -1,13 +1,11 @@
-# CyberSheep 赛博小羊
+# Sheep AI Plus 服务平台
 
-CyberSheep 是围绕 AI 服务使用体验构建的一站式静态门户：帮助用户注册 Sheep AI Plus、创建 API Key、选择模型、为 AI Coding 工具完成配置，并在遇到问题时查找公告与解决方案。
-
-站点同时展示 CyberSheep / SheepAI-Lab 项目、精选创作者项目，以及不同平台上的优质 AI 博客和文章入口。
+本站围绕 Sheep AI Plus 的服务使用体验构建：帮助用户注册账号、创建 API Key、选择模型、为 AI Coding 工具完成配置，并在遇到问题时查找公告与解决方案。
 
 ## 用户路径
 
 ```text
-CyberSheep 首页
+Sheep AI Plus 服务平台首页
   → 注册 Sheep AI Plus / 创建 API Key
   → 模型广场选择模型和分组
   → 快速开始选择工具、模型和配置方式
@@ -25,7 +23,6 @@ guide/*.html               已发布教程详情
 tools/ccswitch.html        CC Switch 系列进阶配置生成器
 announcements/index.html   公告与帮助搜索页
 announcements/*.html       富 HTML 公告详情
-blog/index.html            博客平台、博主与精选文章导航
 ```
 
 ## 技术形态
@@ -43,13 +40,11 @@ blog/index.html            博客平台、博主与精选文章导航
 | 文件 | 职责 |
 |---|---|
 | `data/site.json` | 品牌信息与全局链接 |
-| `data/projects.json` | 官方项目和精选创作者项目 |
 | `data/announcements.json` | 公告列表、分类、关键词与关联数据 |
 | `data/tutorial-tools.json` | 工具目录与规划状态 |
 | `data/tutorial-models.json` | 原生模型和其他模型目标 |
 | `data/tutorial-methods.json` | CC Switch、配置文件、内置面板等配置方式 |
 | `data/tutorial-routes.json` | 已确认有效的教程组合与页面 URL |
-| `data/blogs.json` | 博客平台、博主和精选文章 |
 | `data/available-groups.json` | 模型广场公开分组白名单 |
 | `data/brand-overrides.json` | 上游模型品牌归属修正 |
 | `data/model-snapshots/` | 每周模型历史、元数据和维护日志 |
@@ -126,14 +121,6 @@ GitHub Actions 会在 push 和 pull request 时重复执行相同校验。
 
 首页最新三条、公告中心搜索和详情页上下篇都会自动读取结构化数据。
 
-## 项目与博客维护
-
-- 新增官方项目：向 `data/projects.json` 添加 `source: "official"`；
-- 新增精选项目：添加 `source: "curated"`；
-- 修改 GitHub 主入口：编辑 `data/site.json` 的 `links.github`；
-- 新增平台、博主或文章：编辑 `data/blogs.json`；
-- 不得生成虚构创作者、文章或链接。
-
 ## 每周模型数据更新
 
 把从 Sheep AI Plus 抓取的 `pricing.json` 放入仓库，然后执行：
@@ -170,10 +157,9 @@ python3 scripts/update-models.py pricing.json --date 2026-08-31
 | 文件 | 职责 |
 |---|---|
 | `js/site.js` | Header、Footer、导航、Toast 与模块路径推导 |
-| `js/main.js` | 主题、项目卡片、全局链接与邮箱复制 |
+| `js/main.js` | 主题与邮箱复制 |
 | `js/guide-catalog.js` | 快速开始工具选择和有效路线渲染 |
 | `js/announcements.js` | 公告搜索、列表和上下篇 |
-| `js/blog.js` | 博客平台、博主和文章渲染 |
 | `js/ccswitch-presets.js` | CC Switch 配置预设 |
 | `js/ccswitch-core.js` | Deep Link 生成与 API Key 校验 |
 | `js/models.js` | 模型搜索、筛选、价格与详情 |

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run deterministic validation for the static CyberSheep site."""
+"""Run deterministic validation for the static Sheep AI Plus site."""
 
 import ast
 import json

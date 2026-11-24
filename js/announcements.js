@@ -1,5 +1,5 @@
 /* ============================================================
-   CyberSheep — 公告数据 + 列表渲染
+   Sheep AI Plus — 公告数据 + 列表渲染
    ============================================================
    维护方式：新增 HTML 详情页后，在 data/announcements.json 登记元数据，
    运行 scripts/build-site-data.py。首页与公告中心会自动更新。
@@ -7,7 +7,7 @@
 (function () {
   'use strict'
 
-  var ANNOUNCEMENTS = (window.CYBERSHEEP_DATA && window.CYBERSHEEP_DATA.announcements) || []
+  var ANNOUNCEMENTS = (window.SHEEPAIPLUS_DATA && window.SHEEPAIPLUS_DATA.announcements) || []
   var filterState = { q: '', category: '' }
 
   function esc(value) {

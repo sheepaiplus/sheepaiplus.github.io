@@ -1,8 +1,8 @@
-/* CyberSheep — 快速开始：工具 × 模型 × 配置方式路线导航 */
+/* Sheep AI Plus — 快速开始：工具 × 模型 × 配置方式路线导航 */
 (function () {
   'use strict'
 
-  var data = window.CYBERSHEEP_DATA && window.CYBERSHEEP_DATA.tutorials
+  var data = window.SHEEPAIPLUS_DATA && window.SHEEPAIPLUS_DATA.tutorials
   var toolGrid = document.getElementById('guideToolGrid')
   var routeGroups = document.getElementById('guideRouteGroups')
   if (!toolGrid || !routeGroups) return

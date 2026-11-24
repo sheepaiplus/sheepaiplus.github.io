@@ -9,13 +9,12 @@ models/          模型广场
 guide/           快速开始与教程
 tools/           进阶工具
 announcements/   公告与帮助
-blog/            博客与知识导航
 ```
 
 公共组件：
 
 - `js/site.js`：Header、Footer、导航、Toast 和根路径推导；
-- `js/main.js`：主题、项目、全局链接和邮箱；
+- `js/main.js`：主题和邮箱复制；
 - `css/style.css`：全站变量和基础组件；
 - `assets/site-data.js`：由 `data/*.json` 构建的浏览器数据。
 
@@ -43,7 +42,7 @@ blog/            博客与知识导航
 <script src="../js/<module>.js"></script>
 ```
 
-`site.js` 必须在 `main.js` 前；依赖 `CYBERSHEEP_DATA` 的脚本必须在 `site-data.js` 后。
+`site.js` 必须在 `main.js` 前；依赖 `SHEEPAIPLUS_DATA` 的脚本必须在 `site-data.js` 后。
 
 ## 约束
 
@@ -52,7 +51,7 @@ blog/            博客与知识导航
 - 外链带 `rel="noopener"`；
 - 表单有 label，图像有合理 alt，页面有返回路径；
 - API Key 不进入数据文件、存储和日志；
-- 内容不足时提供真实空状态，不使用虚构项目或文章。
+- 内容不足时提供真实空状态，不使用虚构内容。
 
 ## 验证
 

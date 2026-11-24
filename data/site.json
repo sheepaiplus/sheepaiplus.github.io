@@ -1,17 +1,15 @@
 {
   "schema_version": 1,
   "brand": {
-    "name": "CyberSheep",
-    "name_zh": "赛博小羊",
-    "email": "cybersheep33@gmail.com",
-    "copyright": "© 2026 CyberSheep 赛博小羊"
+    "name": "Sheep AI Plus",
+    "name_zh": "服务平台",
+    "email": "cybersheep@qq.com",
+    "copyright": "© 2026 Sheep AI Plus"
   },
   "links": {
     "api_register": "https://sheepaiplus.top/register?aff=Q6eo",
     "api_console": "https://sheepaiplus.top",
     "api_pricing": "https://sheepaiplus.top/pricing",
-    "api_docs": "https://docs.sheepaiplus.top/",
-    "github": "https://github.com/SheepAI-Lab",
-    "blog_index": "blog/index.html"
+    "api_docs": "https://docs.sheepaiplus.top/"
   }
 }

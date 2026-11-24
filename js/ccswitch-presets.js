@@ -1,5 +1,5 @@
 /* ============================================================
-   CyberSheep — CC Switch 配置预设
+   Sheep AI Plus — CC Switch 配置预设
    ============================================================
    Deep Link 协议（已按 CC Switch 官方 V1 规范确认）：
      ccswitch://v1/import?resource=provider&app={app}&name={name}

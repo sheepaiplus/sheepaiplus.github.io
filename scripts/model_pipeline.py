@@ -74,7 +74,7 @@ def build_snapshot(raw, fetched_at=None):
 
 
 def render_js(snapshot):
-    prefix = "/* CyberSheep 模型广场数据快照（由 scripts/update-models.py 生成） */\n"
+    prefix = "/* Sheep AI Plus 模型广场数据快照（由 scripts/update-models.py 生成） */\n"
     return prefix + "window.MODELS_DATA = " + json.dumps(snapshot, ensure_ascii=False, separators=(",", ":")) + ";\n"
 
 

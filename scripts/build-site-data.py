@@ -30,14 +30,8 @@ def index_unique(items, label):
     return result
 
 
-def require_web_url(value, label):
-    if not isinstance(value, str) or not value.startswith(("https://", "http://")):
-        raise ValueError(f"{label} 不是有效 Web URL: {value}")
-
-
 def build_data():
     site = load("site.json")
-    projects = load("projects.json").get("items", [])
     announcements = load("announcements.json").get("items", [])
     tools = load("tutorial-tools.json").get("items", [])
     models = load("tutorial-models.json").get("items", [])
@@ -45,22 +39,14 @@ def build_data():
     route_doc = load("tutorial-routes.json")
     routes = route_doc.get("items", [])
     support_links = route_doc.get("support_links", [])
-    blogs = load("blogs.json")
-
-    project_ids = index_unique(projects, "项目")
     tool_ids = index_unique(tools, "教程工具")
     model_ids = index_unique(models, "教程模型")
     method_ids = index_unique(methods, "配置方式")
     route_ids = index_unique(routes, "教程路线")
     index_unique(support_links, "教程辅助入口")
 
-    if len(project_ids) != len(projects) or len(route_ids) != len(routes):
+    if len(route_ids) != len(routes):
         raise ValueError("数据索引异常")
-
-    for project in projects:
-        if project.get("source") not in {"official", "curated"}:
-            raise ValueError(f"项目 source 非法: {project.get('id')}")
-        require_web_url(project.get("repo_url"), f"项目 {project.get('id')}")
 
     announcement_slugs = set()
     for item in announcements:
@@ -93,17 +79,8 @@ def build_data():
         if not os.path.isfile(page):
             raise ValueError(f"教程辅助页面不存在: {link.get('url')}")
 
-    for platform in blogs.get("platforms", []):
-        require_web_url(platform.get("url"), f"博客平台 {platform.get('id')}")
-    for creator in blogs.get("creators", []):
-        for link in creator.get("links", []):
-            require_web_url(link.get("url"), f"博主 {creator.get('id')}")
-    for article in blogs.get("articles", []):
-        require_web_url(article.get("url"), f"博文 {article.get('id')}")
-
     return {
         "site": site,
-        "projects": sorted(projects, key=lambda item: item.get("order", 9999)),
         "announcements": announcements,
         "tutorials": {
             "tools": sorted(tools, key=lambda item: item.get("order", 9999)),
@@ -112,13 +89,12 @@ def build_data():
             "routes": routes,
             "support_links": support_links,
         },
-        "blogs": blogs,
     }
 
 
 def render(data):
     payload = json.dumps(data, ensure_ascii=False, indent=2)
-    return "/* 由 scripts/build-site-data.py 生成，请勿手动编辑。 */\nwindow.CYBERSHEEP_DATA = " + payload + ";\n"
+    return "/* 由 scripts/build-site-data.py 生成，请勿手动编辑。 */\nwindow.SHEEPAIPLUS_DATA = " + payload + ";\n"
 
 
 def main():

@@ -1,5 +1,5 @@
 /* ============================================================
-   CyberSheep — CC Switch Deep Link 核心逻辑
+   Sheep AI Plus — CC Switch Deep Link 核心逻辑
    ============================================================
    所有页面统一调用这一份逻辑：
      preset → API Key → 校验 → 构建配置 → URL Encode → ccswitch:// 链接

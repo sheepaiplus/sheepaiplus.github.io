@@ -31,19 +31,6 @@
 
 新增或修改预设后，要同时确认教程路线中的工具 family 在兼容范围内。
 
-## 项目
-
-编辑 `data/projects.json`：
-
-- 官方项目使用 `source: official`；
-- 精选创作者项目使用 `source: curated`；
-- `repo_url` 必须是可核验的真实链接；
-- 首页只展示 `featured` 不为 false 的条目。
-
-## 博客
-
-编辑 `data/blogs.json` 中的 `platforms`、`creators` 和 `articles`。只收录真实平台、创作者和原文链接。
-
 ## 模型广场
 
 正式周更使用：
@@ -56,7 +43,7 @@ python3 scripts/update-models.py pricing.json
 
 ## 全局链接
 
-品牌邮箱、API、GitHub 和博客入口维护在 `data/site.json`。修改后运行站点数据构建。
+品牌邮箱与 API 入口维护在 `data/site.json`。修改后运行站点数据构建。
 
 ## 每次修改后的最低验证
 

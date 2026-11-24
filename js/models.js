@@ -1,5 +1,5 @@
 /* ============================================================
-   CyberSheep — 模型广场（models/）渲染逻辑
+   Sheep AI Plus — 模型广场（models/）渲染逻辑
    ============================================================
    - 纯静态：数据来自 assets/models-data.js（<script> 注入 window.MODELS_DATA）
    - 布局：左侧折叠筛选侧边栏（品牌/分组/类型/标签）+ 中间卡片 + 右侧详情侧页
@@ -804,7 +804,7 @@
       var btn = e.target.closest('[data-layout]')
       if (!btn) return
       state.layout = btn.dataset.layout
-      try { localStorage.setItem('cybersheep-models-layout', state.layout) } catch (err) {}
+      try { localStorage.setItem('sheepaiplus-models-layout', state.layout) } catch (err) {}
       render()
     })
   }
@@ -814,7 +814,7 @@
     var grid = document.getElementById('modelGrid')
     if (!grid) return
     try {
-      state.layout = localStorage.getItem('cybersheep-models-layout') === 'compact' ? 'compact' : 'detail'
+      state.layout = localStorage.getItem('sheepaiplus-models-layout') === 'compact' ? 'compact' : 'detail'
     } catch (e) { state.layout = 'detail' }
     grid.innerHTML = '<div class="models-state"><strong>正在加载模型数据…</strong></div>'
     bindToolbar()

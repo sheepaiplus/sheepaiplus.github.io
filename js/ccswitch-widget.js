@@ -1,5 +1,5 @@
 /* ============================================================
-   CyberSheep — CC Switch 配置组件（Widget）
+   Sheep AI Plus — CC Switch 配置组件（Widget）
    ============================================================
    用法：在页面任意位置放
      <div class="ccswitch-widget" data-preset="codex-cli"></div>

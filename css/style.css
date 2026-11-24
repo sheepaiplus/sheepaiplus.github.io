@@ -1,5 +1,5 @@
 /* ============================================================
-   CyberSheep 赛博小羊 — brand homepage v2
+   Sheep AI Plus 服务平台 — brand homepage v2
    Design language: Sheep AI Plus (sheepaiplus.top)
    Light + Dark themes via html[data-theme]
    ============================================================ */
@@ -144,10 +144,19 @@ html[data-theme="dark"] :focus-visible {
   flex-shrink: 0;
 }
 
-.brand-mark img {
+.brand-glyph {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 38px;
   height: 38px;
   border-radius: 12px;
+  background: var(--btn-gradient);
+  color: #ffffff;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 900;
+  letter-spacing: -0.04em;
   box-shadow: 0 10px 22px rgba(15, 118, 110, 0.20);
 }
 
@@ -242,10 +251,10 @@ html[data-theme="dark"] .site-nav a:hover {
   isolation: isolate;
   overflow: visible;
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+  grid-template-columns: minmax(0, 1fr);
   align-items: center;
-  gap: clamp(28px, 5vw, 64px);
-  min-height: calc(100dvh - var(--header-h));
+  gap: 0;
+  min-height: min(760px, calc(100dvh - var(--header-h)));
   width: min(100% - 36px, var(--max));
   margin: 0 auto;
   padding: 56px 0 44px;
@@ -315,7 +324,7 @@ html[data-theme="dark"] .site-nav a:hover {
 }
 
 .hero-copy {
-  max-width: 640px;
+  max-width: 780px;
 }
 
 .hero-kicker {
@@ -430,89 +439,6 @@ html[data-theme="dark"] .site-nav a:hover {
 
 .btn-ghost:hover::after {
   transform: translateX(4px);
-}
-
-/* Sheep visual */
-
-.hero-visual {
-  justify-self: stretch;
-}
-
-.sheep-card {
-  position: relative;
-  isolation: isolate;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 500px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  background: var(--panel-strong);
-  box-shadow: var(--shadow-strong);
-  overflow: hidden;
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-}
-
-.sheep-card::before {
-  content: "";
-  position: absolute;
-  inset: -10%;
-  z-index: -1;
-  background:
-    radial-gradient(circle at 30% 25%, var(--glow-1) 0%, transparent 42%),
-    radial-gradient(circle at 75% 75%, var(--glow-2) 0%, transparent 40%);
-}
-
-.sheep-card > img {
-  width: min(82%, 420px);
-  height: auto;
-  filter: drop-shadow(0 28px 36px rgba(7, 20, 23, 0.16));
-}
-
-.signal-card {
-  position: absolute;
-  width: min(250px, 72%);
-  padding: 13px 16px;
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  background: var(--tag-bg);
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-}
-
-.signal-card span,
-.signal-card strong {
-  display: block;
-  overflow-wrap: anywhere;
-}
-
-.signal-card span {
-  color: var(--soft);
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-}
-
-.signal-card strong {
-  margin-top: 3px;
-  color: var(--fg);
-  font-size: 0.92rem;
-  line-height: 1.4;
-}
-
-.signal-card--top {
-  top: 9%;
-  right: -14px;
-}
-
-.signal-card--bottom {
-  left: 10px;
-  bottom: 10%;
-  width: min(300px, calc(100% - 20px));
 }
 
 /* ============================================================
@@ -1034,56 +960,6 @@ html[data-theme="dark"] .announce-embed {
   box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
 
-/* ============================================================
-   Repo grid (JS-rendered)
-   ============================================================ */
-
-.repo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 18px;
-}
-
-.repo-card {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 26px 26px 22px;
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  background: var(--panel);
-  box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 255, 255, 0.45);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
-}
-
-html[data-theme="dark"] .repo-card {
-  box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 255, 255, 0.06);
-}
-
-.repo-card:hover {
-  transform: translateY(-4px);
-  border-color: var(--border-strong);
-  box-shadow: var(--shadow-strong), inset 0 1px 0 rgba(255, 255, 255, 0.45);
-}
-
-.repo-card h3 {
-  margin: 0;
-  font-family: var(--font-mono);
-  font-size: 1.05rem;
-  font-weight: 800;
-  letter-spacing: 0;
-  overflow-wrap: anywhere;
-}
-
-.repo-card p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.6;
-}
-
 .skip-link {
   position: fixed;
   top: 8px;
@@ -1180,105 +1056,6 @@ html[data-theme="dark"] .repo-card {
   font-size: 0.7rem;
   font-weight: 800;
   letter-spacing: 0.03em;
-}
-
-.repo-card-meta,
-.repo-card-foot {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.repo-card-meta {
-  color: var(--soft);
-  font-size: 0.72rem;
-  font-weight: 700;
-}
-
-.repo-source {
-  color: var(--primary);
-}
-
-.repo-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.repo-tag {
-  color: var(--muted);
-  font-size: 0.72rem;
-}
-
-.repo-tag + .repo-tag::before {
-  content: "·";
-  margin-right: 6px;
-  color: var(--soft);
-}
-
-.repo-card-foot {
-  margin-top: auto;
-  padding-top: 12px;
-}
-
-.repo-lang--typescript { color: #3178c6; }
-.repo-lang--swift { color: #e95b3d; }
-.repo-lang--shell { color: #4d8b46; }
-
-.repo-lang {
-  align-self: flex-start;
-  display: inline-flex;
-  align-items: center;
-  min-height: 24px;
-  padding: 0 10px;
-  border-radius: var(--radius-pill);
-  background: var(--tag-bg);
-  border: 1px solid var(--border);
-  font-family: var(--font-mono);
-  font-size: 0.74rem;
-  font-weight: 800;
-}
-
-.repo-link {
-  color: var(--primary);
-  font-weight: 900;
-}
-
-.repo-link::after {
-  content: "->";
-  margin-left: 8px;
-  transition: transform 180ms ease;
-}
-
-.repo-card:hover .repo-link::after {
-  transform: translateX(4px);
-}
-
-.project-block + .project-block {
-  margin-top: 30px;
-  padding-top: 28px;
-  border-top: 1px solid var(--divider);
-}
-
-.project-block-head {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 18px;
-  margin-bottom: 16px;
-}
-
-.project-block-head h3 {
-  margin: 0;
-  font-size: 1.08rem;
-}
-
-.project-block-head p {
-  max-width: 58ch;
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.84rem;
 }
 
 .content-empty {
@@ -1531,15 +1308,6 @@ html[data-theme="dark"] .repo-card {
     max-width: 720px;
   }
 
-  .hero-visual {
-    max-width: 620px;
-    justify-self: center;
-    width: 100%;
-  }
-
-  .sheep-card {
-    min-height: 420px;
-  }
 }
 
 @media (max-width: 920px) {
@@ -1598,25 +1366,6 @@ html[data-theme="dark"] .repo-card {
     margin-inline: auto;
   }
 
-  .sheep-card {
-    min-height: 300px;
-  }
-
-  .sheep-card > img {
-    width: min(70%, 260px);
-  }
-
-  .signal-card--top {
-    right: 8px;
-    top: 12px;
-  }
-
-  .signal-card--bottom {
-    left: 8px;
-    bottom: 12px;
-    width: calc(100% - 16px);
-  }
-
   .section,
   .site-footer {
     width: min(100% - 22px, var(--max));
@@ -1660,19 +1409,6 @@ html[data-theme="dark"] .repo-card {
 @media (max-width: 430px) {
   .brand-mark em {
     display: none;
-  }
-
-  .sheep-card {
-    min-height: 260px;
-    border-radius: 22px;
-  }
-
-  .signal-card {
-    padding: 10px 12px;
-  }
-
-  .signal-card strong {
-    font-size: 0.82rem;
   }
 
   .community-panel {
