@@ -17,6 +17,31 @@ window.SHEEPAIPLUS_DATA = {
   },
   "announcements": [
     {
+      "date": "2026-11-25",
+      "title": "模型广场更新：新增 deepseek-v4-pro-0813、gpt-5-codex",
+      "excerpt": "本期收录 321 个模型，新增 2 个、下架 0 个，19 个模型的配置字段发生变化。",
+      "slug": "models-update-2026-11-25",
+      "type": "update",
+      "category": "模型更新",
+      "keywords": [
+        "模型广场",
+        "模型更新",
+        "上架",
+        "下架",
+        "价格",
+        "分组",
+        "deepseek-v4-pro-0813",
+        "gpt-5-codex"
+      ],
+      "featured": true,
+      "related_guides": [],
+      "related_models": [
+        "deepseek-v4-pro-0813",
+        "gpt-5-codex"
+      ],
+      "generated_from": "data/model-snapshots/2026-11-25/changes.json"
+    },
+    {
       "date": "2026-11-24",
       "title": "模型广场更新：新增 gemini-3.8-flash 等 4 个模型",
       "excerpt": "本期收录 319 个模型，新增 4 个、下架 7 个，14 个模型的配置字段发生变化。",
