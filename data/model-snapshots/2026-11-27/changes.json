@@ -1,0 +1,120 @@
+{
+  "baseline": false,
+  "models_added": [],
+  "models_removed": [
+    "kling-omni-image"
+  ],
+  "models_changed": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Bedrock-1",
+            "AWS-Claude-1",
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2",
+            "Kiro-Claude-1"
+          ],
+          "after": [
+            "AWS-Claude-2",
+            "AWS-Claude-3",
+            "Anthropic-Claude-1",
+            "Azure-Claude-1",
+            "Claude-Code-1",
+            "Claude-Code-2"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-lite",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Anti-Gemini-1",
+            "Vertex-Gemini-3"
+          ],
+          "after": [
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gemini-4-neon",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4"
+          ],
+          "after": [
+            "Aistudio-Gemini-3",
+            "Aistudio-Gemini-4",
+            "Vertex-Gemini-3"
+          ]
+        }
+      }
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "fields": {
+        "enable_groups": {
+          "before": [
+            "Azure-Gpt-4",
+            "Azure-Gpt-5",
+            "Codex-Gpt-1",
+            "Codex-Gpt-2",
+            "Codex-Gpt-3",
+            "Openai-Gpt-1",
+            "Openai-Gpt-2"
+          ],
+          "after": [
+            "Azure-Gpt-3",
+            "Azure-Gpt-4",
+            "Azure-Gpt-5",
+            "Codex-Gpt-1",
+            "Codex-Gpt-2",
+            "Codex-Gpt-3",
+            "Openai-Gpt-1",
+            "Openai-Gpt-2"
+          ]
+        }
+      }
+    }
+  ],
+  "group_ratio_changed": []
+}
