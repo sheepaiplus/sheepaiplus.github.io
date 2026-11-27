@@ -17,6 +17,29 @@ window.SHEEPAIPLUS_DATA = {
   },
   "announcements": [
     {
+      "date": "2026-11-28",
+      "title": "模型广场更新：新增 mj_fast_variation",
+      "excerpt": "本期收录 318 个模型，新增 1 个、下架 3 个，7 个模型的配置字段发生变化。",
+      "slug": "models-update-2026-11-28",
+      "type": "update",
+      "category": "模型更新",
+      "keywords": [
+        "模型广场",
+        "模型更新",
+        "上架",
+        "下架",
+        "价格",
+        "分组",
+        "mj_fast_variation"
+      ],
+      "featured": true,
+      "related_guides": [],
+      "related_models": [
+        "mj_fast_variation"
+      ],
+      "generated_from": "data/model-snapshots/2026-11-28/changes.json"
+    },
+    {
       "date": "2026-11-27",
       "title": "模型广场更新：下架 1 个旧模型",
       "excerpt": "本期收录 320 个模型，新增 0 个、下架 1 个，5 个模型的配置字段发生变化。",
